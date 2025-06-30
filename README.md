@@ -31,7 +31,7 @@ You can add a rank so you can use "/ordered_attendance_list". Position 0 is the 
 ### /settings_remove_rank (position: int)
 Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname.
 
-### /settings_auto_clear_attendances: 
+### /settings_auto_clear_attendances (auto_clear_protocol: Clear all messages, Clear all messages except admins, Only clear attendance messages OR Don't clear messages)
 When the user uses "/reset_attendance_list". You can automatically clear the attendance text channel when you also reset the attendance list. there are also 4 modes you can use: Clear all messages, Clear all messages except admins, Only clear attendance messages & Don't clear messages. Don't clear messages is the default.
 
 ### /settings_rankup_requirement (rank_position: int, attendances_to_reach: int)
