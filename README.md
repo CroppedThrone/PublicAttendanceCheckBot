@@ -19,8 +19,11 @@ You can now use the command: "/settings_auto_clear_attendances"
 ## Commands list (needs to update)
 Every settings command can only be accessed by people with admin permissions.
 
+### /default_attendance_list (skipdates: bool = True)
+Gives a list of troopers without order. This can be helpful for testing or if you don't want to set up a rank system with a rank requirement. If you want to see the date for each person his attendance, you can put "skipdates" to false.
+
 ### /ordered_attendance_list (checkrequirement: bool = False, allowdate: bool = False)
-Gives a list of troopers in rank order and attendance. The rank order can be changed by using "/settings_add_rank" or "/settings_remove_rank". If you enable "checkRequirement" it will only show the people that can rank up based of the attendance they have and the rank up requirement you need. You can change the rank up requirement with "/settings_rankup_requirement".
+Gives a list of troopers in rank order and attendance. The rank order can be changed by using "/settings_add_rank" or "/settings_remove_rank". If you enable "checkRequirement" it will only show the people that can rank up based of the attendance they have and the rank up requirement you need. You can change the rank up requirement with "/settings_rankup_requirement". If you want to see the date for each person his attendance, you can put "allowdate" to true.
 
 ### /settings_add_rank (newrank: str, position: int)
 You can add a rank so you can use "/ordered_attendance_list". Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname.
