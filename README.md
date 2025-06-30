@@ -13,3 +13,6 @@ You can add your ranks, rank requirements, roles that will give people access to
 
 ## Update 0.1
 You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up.
+
+## Launch
+Started development on 23-04-2025
