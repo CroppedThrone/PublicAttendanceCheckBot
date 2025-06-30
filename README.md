@@ -40,3 +40,4 @@ Change the number of attendances needed to reach a rank. You can use /rank_list 
 
 ## Launch
 Started development on 23-04-2025
+It is made by yours truly, CroppedThrone :D
