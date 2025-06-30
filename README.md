@@ -14,13 +14,13 @@ You start off with 50 people max with 20 ranks max and if you want to upgrade to
 
 ## Update 0.11
 You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up.
-You can now use the command: /settings_auto_clear_attendances
+You can now use the command: "/settings_auto_clear_attendances"
 
 ## Commands list (needs to update)
 Every settings command can only be accessed by people with admin permissions.
 
 ### /ordered_attendance_list (checkrequirement: bool = False, allowdate: bool = False)
-Gives a list of troopers in rank order and attendance. The rank order can be changed by using "/settings_add_rank" or /settings_remove_rank.
+Gives a list of troopers in rank order and attendance. The rank order can be changed by using "/settings_add_rank" or "/settings_remove_rank". If you enable "checkRequirement" it will only show the people that can rank up based of the attendance they have and the rank up requirement you need. You can change the rank up requirement with "/settings_rankup_requirement".
 
 ### /settings_add_rank (newrank: str, position: int)
 You can add a rank so you can use "/ordered_attendance_list". Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname.
