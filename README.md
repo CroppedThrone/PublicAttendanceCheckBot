@@ -12,7 +12,7 @@ With this discord bot let a bot count attendances so you don't have to count it 
 You can add your ranks, rank requirements, roles that will give people access to commands and so much more!
 You start off with 50 people max with 20 ranks max and if you want to upgrade to premium, you can have 500 people with 50 ranks!
 
-## Update 0.11
+## Update 1.01
 You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up.
 You can now use the command: "/settings_auto_clear_attendances"
 
