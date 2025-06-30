@@ -19,19 +19,19 @@ You can now use the command: /settings_auto_clear_attendances
 ## Commands list (needs to update)
 Every settings command can only be accessed by people with admin permissions.
 
-#### /ordered_attendance_list (checkrequirement: bool = False, allowdate: bool = False)
+### /ordered_attendance_list (checkrequirement: bool = False, allowdate: bool = False)
 Gives a list of troopers in rank order and attendance. The rank order can be changed by using "/settings_add_rank" or /settings_remove_rank.
 
-#### /settings_add_rank (newrank: str, position: int)
+### /settings_add_rank (newrank: str, position: int)
 You can add a rank so you can use "/ordered_attendance_list". Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname.
 
-#### /settings_remove_rank (position: int)
+### /settings_remove_rank (position: int)
 Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname.
 
-#### /settings_auto_clear_attendances: 
+### /settings_auto_clear_attendances: 
 When the user uses "/reset_attendance_list". You can automatically clear the attendance text channel when you also reset the attendance list. there are also 4 modes you can use: Clear all messages, Clear all messages except admins, Only clear attendance messages & Don't clear messages. Don't clear messages is the default.
 
-#### settings_rankup_requirement (rank_position: int, attendances_to_reach: int)
+### /settings_rankup_requirement (rank_position: int, attendances_to_reach: int)
 Change the number of attendances needed to reach a rank. You can use /rank_list to see every rank and position of it so it easier to modify the rankuprequirement.
 
 
