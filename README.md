@@ -21,7 +21,7 @@ You can now use the command: "/settings_auto_clear_attendances"
 
 ## ADMIN
 
-### settings_attendance_protocols (newprotocols: No attendance, Attendance with commands, Attendance with messages, Attendance with commands and messages)
+### /settings_attendance_protocols (newprotocols: No attendance, Attendance with commands, Attendance with messages, Attendance with commands and messages)
 With this command you can change how the user in your discord server interacts with attendance. They can use commands, messages or commands and messages. The default mode is: "Attendance with commands and messages". Don't forget to also setup your channel where users can use attendance!
 
 ### /settings_add_rank (newrank: str, position: int)
