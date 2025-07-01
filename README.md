@@ -8,13 +8,13 @@ https://discord.com/oauth2/authorize?client_id=1358504555473539469&permissions=8
 https://discord.com/oauth2/authorize?client_id=1358504555473539469&permissions=2617583696&integration_type=0&scope=bot
 
 ## What can you do with this discord bot?
-With this discord bot let a bot count attendances so you don't have to count it yourself. <br />
-You can add your ranks, rank requirements, roles that will give people access to commands and so much more! <br />
-You start off with 50 people max with 20 ranks max and if you want to upgrade to premium, you can have 500 people with 50 ranks! <br />
-The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager. If you want to know what each role can do check out the commands list! <br />
+With this discord bot let a bot count attendances so you don't have to count it yourself. <br/>
+You can add your ranks, rank requirements, roles that will give people access to commands and so much more! <br/>
+You start off with 50 people max with 20 ranks max and if you want to upgrade to premium, you can have 500 people with 50 ranks! <br/>
+The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager. If you want to know what each role can do check out the commands list! <br/>
 
-## Update 1.02
-Updated the Readme. <br />
+## Newest Update 1.02
+Updated the Readme. <br/>
 
 # Commands list
 ## ADMIN
@@ -85,11 +85,14 @@ Renames the username of a user. If you use the member variable, it will rename t
 This commands checks if a user can get attendance. If "/set_attendance_timer" is activated the user can use this command to get the attendance. But this does depends what has been selected with the command: "/settings_attendance_protocols". If the settings: "Attendance with commands" or "Attendance with commands and messages" have been selected you can use the command. If the settings: "Attendance with messages" or "Attendance with commands and messages" have been selected you cannot use the command "/attendance" but will have to type in "i attended" in the correct discord channel. To setup the discord channel use "/settings_attendance_channel".
 
 # UpdateLogs
+## Update 1.02
+Updated the Readme. <br/>
+
 ## Update 1.01
-You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up. <br />
-You can now use the command: "/settings_auto_clear_attendances". <br />
-The word "derp" is now removed o7. <br />
+You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up. <br/>
+You can now use the command: "/settings_auto_clear_attendances". <br/>
+The word "derp" is now removed o7. <br/>
 
 # Launch
-Started development on 23-04-2025 <br />
-It is made by yours truly, CroppedThrone :D <br />
+Started development on 23-04-2025 <br/>
+It is made by yours truly, CroppedThrone :D <br/>
