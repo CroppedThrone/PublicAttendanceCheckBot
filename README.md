@@ -11,13 +11,13 @@ https://discord.com/oauth2/authorize?client_id=1358504555473539469&permissions=2
 With this discord bot let a bot count attendances so you don't have to count it yourself.
 You can add your ranks, rank requirements, roles that will give people access to commands and so much more!
 You start off with 50 people max with 20 ranks max and if you want to upgrade to premium, you can have 500 people with 50 ranks!
+The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager. If you want to know what each role can do check out the commands list!
 
 ## Update 1.01
 You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up.
 You can now use the command: "/settings_auto_clear_attendances"
 
 ## Commands list (needs to update)
-Every settings command can only be accessed by people with admin permissions.
 
 ## ADMIN
 
@@ -37,9 +37,13 @@ When the user uses "/reset_attendance_list". You can automatically clear the att
 Change the number of attendances needed to reach a rank. You can use /rank_list to see every rank and position of it so it easier to modify the rankuprequirement.
 
 ### /rank_list ()
-View all ranks and it's requirements to rank up. To change ranks you can use "/settings_add_rank" or "/settings_add_rank". To change rank requirements use "/settings_rankup_requirement.\
+View all ranks and it's requirements to rank up. To change ranks you can use "/settings_add_rank" or "/settings_add_rank". To change rank requirements use "/settings_rankup_requirement".
 
 ### /remove_user (member: discord.Member, nickname: str)
+Removes a user from the attendance sheet so you have more room for other people in the sheet. You can remove users using their discord account that you can select while using the command. Or if the perosn that is in your group doesn't have a discord account but is registered in the attendance sheet. You can use "nickname" and fill in their nickname. You can only use one of these options in 1 command, not both.
+
+### /reset_attendance_list (areyousure: bool, areyousure2: bool, areyousure3: bool)
+Resets the attendance list by mkaing everyones attendance number go to 0. You have to put in 3x true, just to make sure you can't do it accidentally. Using this command will activate reset setttings protocols so check out if you're interested! "/settings_auto_clear_attendances".
 
 ## Attendance_Manager
 
@@ -52,9 +56,18 @@ Gives a list of troopers in rank order and attendance. The rank order can be cha
 ### /update_troopers_nicknames ()
 Updates the nicknames of all troopers who have a discord account for the excel sheet. If people in the discord server forgot to use "/rename_user" and use discord's rename system instead of "/rename user". You can use this command to update it for every trooper and it will show you a list of every user that got updated. It will only update the nicknames in the excel sheet if the user has attended once.
 
+### /create_forced_attendance (member: discord.Member, nickname: str)
+This command is mainly used for non-discord users, that need to be registrated for the attendance sheet. And if they attended their training for the first time, then you can use "nickname" for them. If one of your discord members can't use their discord at the time. You can use this command aswell. You can only use one of these options in 1 command, not both.
+
+### /increment_attendance (amount: int, member: discord.Member, username: str)
+You can decrease or increase attendance of a user and by how much you increase or decrease depends on what you put in the "amount", TIP: don't let it go into -1 or less attendance XD. You can change the attendance numbers for discord users by using "member". And you can change it for non-discord users with "username". You can only use one of these options in 1 command, not both.
+
+## Attendance_Creator
+
 ## Name_Changer
 
-### /rename_user
+### /rename_user (newname: str, member: discord.Member, nickname: str)
+Renames the username of a user. If you use the member variable, it will rename the user in the attendance sheet. But also rename the user in discord. If you use nickname it will only change the username in the attendance sheet. You can only use one of these options in 1 command, not both.
 
 ## Launch
 Started development on 23-04-2025
