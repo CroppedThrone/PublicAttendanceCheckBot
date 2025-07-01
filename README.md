@@ -14,9 +14,9 @@ You start off with 50 people max with 20 ranks max and if you want to upgrade to
 The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager. If you want to know what each role can do check out the commands list!
 
 ## Update 1.01
-You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up.
-You can now use the command: "/settings_auto_clear_attendances".
-The word "derp" is now removed o7.
+You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up. <br />
+You can now use the command: "/settings_auto_clear_attendances". <br />
+The word "derp" is now removed o7. <br />
 
 ## Commands list (needs to update)
 
