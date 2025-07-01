@@ -15,7 +15,7 @@ The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager
 
 ## Update 1.01
 You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up.
-You can now use the command: "/settings_auto_clear_attendances"
+You can now use the command: "/settings_auto_clear_attendances".
 The word "derp" is now removed o7.
 
 ## Commands list (needs to update)
