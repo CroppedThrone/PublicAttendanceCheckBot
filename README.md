@@ -1,6 +1,6 @@
 # AttendanceCheckBot
 A discord bot that checks attendances, mainly used for starwars servers! <br/>
-invite the bot to your server today! <br/>
+Invite the bot to your server today! <br/>
 
 ### Invite link with Admin Perms: (Recommended)
 https://discord.com/oauth2/authorize?client_id=1358504555473539469&permissions=8&integration_type=0&scope=bot
