@@ -16,6 +16,7 @@ The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager
 ## Update 1.01
 You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up.
 You can now use the command: "/settings_auto_clear_attendances"
+The word "derp" is now removed o7.
 
 ## Commands list (needs to update)
 
@@ -23,6 +24,9 @@ You can now use the command: "/settings_auto_clear_attendances"
 
 ### /settings_attendance_protocols (newprotocols: No attendance, Attendance with commands, Attendance with messages, Attendance with commands and messages)
 With this command you can change how the user in your discord server interacts with attendance. They can use commands, messages or commands and messages. The default mode is: "Attendance with commands and messages". Don't forget to also setup your channel where users can use attendance!
+
+### /settings_attendance_channel (channel: discord.TextChannel)
+Use this command to select which text channel the discord bot should check for people typing in "i attended". This is also the channel that get's autocleaned if you have "/settings_auto_clear_attendances" set up.
 
 ### /settings_add_rank (newrank: str, position: int)
 You can add a rank so you can use "/ordered_attendance_list". Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname.
