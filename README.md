@@ -45,6 +45,9 @@ Removes a user from the attendance sheet so you have more room for other people 
 ### /reset_attendance_list (areyousure: bool, areyousure2: bool, areyousure3: bool)
 Resets the attendance list by mkaing everyones attendance number go to 0. You have to put in 3x true, just to make sure you can't do it accidentally. Using this command will activate reset setttings protocols so check out if you're interested! "/settings_auto_clear_attendances".
 
+### /settings_change_rolename
+This setting is not available and may be removed in the future.
+
 ## Attendance_Manager
 
 ### /default_attendance_list (skipdates: bool = True)
@@ -64,10 +67,21 @@ You can decrease or increase attendance of a user and by how much you increase o
 
 ## Attendance_Creator
 
+### /set_attendance_timer (hourstosignin: int, minutestosignin: int, secondstosignin: int))
+Sets a timer for your users to collect their attendance. You can fill in the variables: "hourstosignin, minutestosignin, secondstosignin" to select how long you want attendance to be available for your users. if you do not set anything it will automatically be 1 hour and 30 minutes.
+
+### /set_attendance_state (allowstate: bool)
+With this command you can disable or enable your troopers from getting attendance. This is kind of a security command where if someone accidentally uses "/set_attendance_timer" while it's not meant to happen. Then you can set the "allowstate" to false to prevent people from gettign attendance. Using "/set_attendance_timer" after someone used "/set_attendance_state (allowstate: false)", will automatically set "allowstate" to true.
+
 ## Name_Changer
 
 ### /rename_user (newname: str, member: discord.Member, nickname: str)
 Renames the username of a user. If you use the member variable, it will rename the user in the attendance sheet. But also rename the user in discord. If you use nickname it will only change the username in the attendance sheet. You can only use one of these options in 1 command, not both.
+
+## Everyone
+
+### /attendance
+This commands checks if a user can get attendance. If "/set_attendance_timer" is activated the user can use this command to get the attendance. But this does depends what has been selected with the command: "/settings_attendance_protocols". If the settings: "Attendance with commands" or "Attendance with commands and messages" have been selected you can use the command. If the settings: "Attendance with messages" or "Attendance with commands and messages" have been selected you cannot use the command "/attendance" but will have to type in "i attended" in the correct discord channel. To setup the discord channel use "/settings_attendance_channel".
 
 ## Launch
 Started development on 23-04-2025
