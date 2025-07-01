@@ -1,6 +1,6 @@
 # AttendanceCheckBot
-A discord bot that checks attendances, mainly used for starwars servers!
-invite the bot to your server today!
+A discord bot that checks attendances, mainly used for starwars servers! <br/>
+invite the bot to your server today! <br/>
 
 ### Invite link with Admin Perms: (Recommended)
 https://discord.com/oauth2/authorize?client_id=1358504555473539469&permissions=8&integration_type=0&scope=bot
@@ -8,13 +8,13 @@ https://discord.com/oauth2/authorize?client_id=1358504555473539469&permissions=8
 https://discord.com/oauth2/authorize?client_id=1358504555473539469&permissions=2617583696&integration_type=0&scope=bot
 
 ## What can you do with this discord bot?
-With this discord bot let a bot count attendances so you don't have to count it yourself.
-You can add your ranks, rank requirements, roles that will give people access to commands and so much more!
-You start off with 50 people max with 20 ranks max and if you want to upgrade to premium, you can have 500 people with 50 ranks!
-The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager. If you want to know what each role can do check out the commands list!
+With this discord bot let a bot count attendances so you don't have to count it yourself. <br />
+You can add your ranks, rank requirements, roles that will give people access to commands and so much more! <br />
+You start off with 50 people max with 20 ranks max and if you want to upgrade to premium, you can have 500 people with 50 ranks! <br />
+The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager. If you want to know what each role can do check out the commands list! <br />
 
 ## Update 1.02
-Updated the Readme. <>
+Updated the Readme. <br />
 
 # Commands list
 ## ADMIN
@@ -91,5 +91,5 @@ You can now use the command: "/settings_auto_clear_attendances". <br />
 The word "derp" is now removed o7. <br />
 
 # Launch
-Started development on 23-04-2025<br />
-It is made by yours truly, CroppedThrone :D<br />
+Started development on 23-04-2025 <br />
+It is made by yours truly, CroppedThrone :D <br />
