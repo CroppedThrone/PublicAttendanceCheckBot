@@ -13,8 +13,22 @@ You can add your ranks, rank requirements, roles that will give people access to
 You start off with 50 people max with 20 ranks max and if you want to upgrade to premium, you can have 500 people with 50 ranks! <br/>
 The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager. If you want to know what each role can do check out the commands list! <br/>
 
-## Newest Update 1.02
-Updated the Readme. <br/>
+## Tutorial Setup
+
+### Basic setup
+1. You click on the invite link with Admin perms, so you can invite the bot to your server. <br/>
+2. Use "/settings_attendance_protocols" and select a protocol to that you want to use. <br/>
+3. Use "/settings_attendance_channel" and select the discord channel where people put in their attendance. <br/>
+4. Give people the role: "Attendance_Creator" if you want them to create attendances periods for people. And the role: "Name_Changer" to let them change usernames with the commands they have access to. <br/>
+
+People can now type: "I attended" or use "/attendance" in the selected discord channel when ever someone uses: "/set_attendance_timer" and if you want to see how many people attended you can use: "/default_attendance_list".
+
+### Extra settings
+1. Use /settings_add_rank to add ranks to the attendance sheet so you can use "/ordered_attendance_list" instead of "/default_attendance_list". <br/>
+2. To every rank you can add requirements so you can make it, so that only in the "/ordered_attendance_list (checkrequirement = true)" it will show people who can actually rank up. You can setup it up using: "/settings_rankup_requirement". <br/>
+3. When a person uses "/reset_attendance_list" you can automatically let it clear out the attendance channel with the command: "/settings_auto_clear_attendances". <br/>
+
+Check out the commands list for even more settings that can be useful to know!<br/>
 
 # Commands list
 ## ADMIN
@@ -29,7 +43,7 @@ Use this command to select which text channel the discord bot should check for p
 You can add a rank so you can use "/ordered_attendance_list". Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname.
 
 ### /settings_remove_rank (position: int)
-Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname.
+Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname. Removing the rank also clears the attendance requirement of that rank.
 
 ### /settings_auto_clear_attendances (auto_clear_protocol: Clear all messages, Clear all messages except admins, Only clear attendance messages, Don't clear messages)
 When the user uses "/reset_attendance_list". You can automatically clear the attendance text channel when you also reset the attendance list. there are also 4 modes you can use: Clear all messages, Clear all messages except admins, Only clear attendance messages & Don't clear messages. The default mode is: "Don't clear messages".
@@ -85,13 +99,15 @@ Renames the username of a user. If you use the member variable, it will rename t
 This commands checks if a user can get attendance. If "/set_attendance_timer" is activated the user can use this command to get the attendance. But this does depends what has been selected with the command: "/settings_attendance_protocols". If the settings: "Attendance with commands" or "Attendance with commands and messages" have been selected you can use the command. If the settings: "Attendance with messages" or "Attendance with commands and messages" have been selected you cannot use the command "/attendance" but will have to type in "i attended" in the correct discord channel. To setup the discord channel use "/settings_attendance_channel".
 
 # UpdateLogs
-## Update 1.02
-Updated the Readme. <br/>
+## Update 1.02 
+Created the Readme. <br/>
+03-06-2025 <br/>
 
 ## Update 1.01
 You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up. <br/>
 You can now use the command: "/settings_auto_clear_attendances". <br/>
 The word "derp" is now removed o7. <br/>
+02-06-2025 <br/>
 
 # Launch
 Started development on 23-04-2025 <br/>
