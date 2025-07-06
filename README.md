@@ -99,15 +99,21 @@ Renames the username of a user. If you use the member variable, it will rename t
 This commands checks if a user can get attendance. If "/set_attendance_timer" is activated the user can use this command to get the attendance. But this does depends what has been selected with the command: "/settings_attendance_protocols". If the settings: "Attendance with commands" or "Attendance with commands and messages" have been selected you can use the command. If the settings: "Attendance with messages" or "Attendance with commands and messages" have been selected you cannot use the command "/attendance" but will have to type in "i attended" in the correct discord channel. To setup the discord channel use "/settings_attendance_channel".
 
 # UpdateLogs
+
+## Update 1.03
+Added /settings_remove_user_onleave. <br/>
+/attendance or i attended now uses the attendance channel ID instead of the name. <br/>
+06-07-2025
+
 ## Update 1.02 
 Created the Readme. <br/>
-03-06-2025 <br/>
+03-07-2025 <br/>
 
 ## Update 1.01
 You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up. <br/>
 You can now use the command: "/settings_auto_clear_attendances". <br/>
 The word "derp" is now removed o7. <br/>
-02-06-2025 <br/>
+02-07-2025 <br/>
 
 # Launch
 Started development on 23-04-2025 <br/>
