@@ -48,6 +48,9 @@ Position 0 is the highest rank. Position 20 is the lowest rank unless you have p
 ### /settings_auto_clear_attendances (auto_clear_protocol: Clear all messages, Clear all messages except admins, Only clear attendance messages, Don't clear messages)
 When the user uses "/reset_attendance_list". You can automatically clear the attendance text channel when you also reset the attendance list. there are also 4 modes you can use: Clear all messages, Clear all messages except admins, Only clear attendance messages & Don't clear messages. The default mode is: "Don't clear messages".
 
+### /settings_remove_user_onleave (allowsetting: bool)
+When a user leaves the discord group you can set it up so that the bot automatically removes that person from the attendance sheet. You can set "allowsetting" to True or False to enable or disable this from happening. The default setting is: True.
+
 ### /settings_rankup_requirement (rank_position: int, attendances_to_reach: int)
 Change the number of attendances needed to reach a rank. You can use /rank_list to see every rank and position of it so it easier to modify the rankuprequirement.
 
