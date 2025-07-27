@@ -103,6 +103,12 @@ This commands checks if a user can get attendance. If "/set_attendance_timer" is
 
 # UpdateLogs
 
+## Update 1.04
+"/reset_attendance_list" will now display what happened when it's done with removing messages because of "/settings_auto_clear_attendances" settings. <br/>
+It will now also clear messages, even tough a user removed a message while the command is active. <br/>
+Messages from the bot will now be less likely to get send twice. (which is a good thing :D) <br/>
+27-07-2025
+
 ## Update 1.03
 Added /settings_remove_user_onleave. <br/>
 /attendance or i attended now uses the attendance channel ID instead of the name. <br/>
@@ -113,7 +119,7 @@ Created the Readme. <br/>
 03-07-2025 <br/>
 
 ## Update 1.01
-You can now organise people with the /Give_Ordered_List by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up. <br/>
+You can now organise people with the "/Give_Ordered_List" by using "checkrequirement". This will allow you to only see the people who have enough attendances to rank up. <br/>
 You can now use the command: "/settings_auto_clear_attendances". <br/>
 The word "derp" is now removed o7. <br/>
 02-07-2025 <br/>
