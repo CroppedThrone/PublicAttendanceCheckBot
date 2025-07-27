@@ -103,11 +103,16 @@ This commands checks if a user can get attendance. If "/set_attendance_timer" is
 
 # UpdateLogs
 
+## Update 1.05
+Fixed some major bugs around "reset_attendance_list" <br/>
+"/increment_attendance" now also creates a user in the sheet if the user didn't exist before. This only works with discord users <br/>
+27-07-2024
+
 ## Update 1.04
 "/reset_attendance_list" will now display what happened when it's done with removing messages because of "/settings_auto_clear_attendances" settings. <br/>
 It will now also clear messages, even tough a user removed a message while the command is active. <br/>
 Messages from the bot will now be less likely to get send twice. (which is a good thing :D) <br/>
-27-07-2025
+26-07-2025
 
 ## Update 1.03
 Added /settings_remove_user_onleave. <br/>
@@ -123,6 +128,9 @@ You can now organise people with the "/Give_Ordered_List" by using "checkrequire
 You can now use the command: "/settings_auto_clear_attendances". <br/>
 The word "derp" is now removed o7. <br/>
 02-07-2025 <br/>
+
+# To Do
+Being able to put in all the rank orders in 1 go. 
 
 # Launch
 Started development on 23-04-2025 <br/>
