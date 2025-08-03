@@ -13,6 +13,12 @@ You can add your ranks, rank requirements, roles that will give people access to
 You start off with 50 people max with 20 ranks max and if you want to upgrade to premium, you can have 500 people with 50 ranks! <br/>
 The bot also adds 3 roles: Name_Changer, Attendance_Creator & Attendance_Manager. If you want to know what each role can do check out the commands list! <br/>
 
+## Premium
+The bot is free of use and can handle 50 people and 20 ranks for free! <br/>
+But if you're server has a lot more people or more roles, there is a option to upgrade your bot to 500 people and 50 ranks! <br/>
+The upgrade is NOT a subscription. It's permanent. And it will cost around 10 euro's. <br/>
+Contact me on discord by the user name: "CroppedThrone". <br/>
+
 ## Tutorial Setup
 
 ### Basic setup
