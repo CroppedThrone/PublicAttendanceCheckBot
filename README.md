@@ -48,6 +48,9 @@ Use this command to select which text channel the discord bot should check for p
 ### /settings_add_rank (newrank: str, position: int)
 You can add a rank so you can use "/ordered_attendance_list". Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname.
 
+### /settings_add_all_ranks (ranks: str)
+Allows you to put in all ranks at once, instead of doing it 1 by 1. It will always start at position 0 and will go down to position 20 & if you have premium it will be position 50. It will overide all existing ranks.
+
 ### /settings_remove_rank (position: int)
 Position 0 is the highest rank. Position 20 is the lowest rank unless you have premium then it is 50. The rank of each person is based of, if they have the letters of the rank in their nickname. Removing the rank also clears the attendance requirement of that rank.
 
@@ -58,7 +61,7 @@ When the user uses "/reset_attendance_list". You can automatically clear the att
 When a user leaves the discord group you can set it up so that the bot automatically removes that person from the attendance sheet. You can set "allowsetting" to True or False to enable or disable this from happening. The default setting is: True.
 
 ### /settings_rankup_requirement (rank_position: int, attendances_to_reach: int)
-Change the number of attendances needed to reach a rank. You can use /rank_list to see every rank and position of it so it easier to modify the rankuprequirement.
+Change the number of attendances needed to reach a rank. You can use "/rank_list" to see every rank and position of it so it easier to modify the rankuprequirement.
 
 ### /rank_list ()
 View all ranks and it's requirements to rank up. To change ranks you can use "/settings_add_rank" or "/settings_add_rank". To change rank requirements use "/settings_rankup_requirement".
@@ -102,6 +105,9 @@ With this command you can disable or enable your troopers from getting attendanc
 ### /rename_user (newname: str, member: discord.Member, nickname: str)
 Renames the username of a user. If you use the member variable, it will rename the user in the attendance sheet. But also rename the user in discord. If you use nickname it will only change the username in the attendance sheet. You can only use one of these options in 1 command, not both.
 
+### /help
+Sends the github link for the publicAttendanceManager page, so you can always find everything back :D.
+
 ## Everyone
 
 ### /attendance
@@ -109,10 +115,19 @@ This commands checks if a user can get attendance. If "/set_attendance_timer" is
 
 # UpdateLogs
 
+## Update 1.07
+Added the "/help" command. <br/>
+Fixed a onMessage attended bug. <br/>
+09-08-2025
+
+## Update 1.06
+Added the "/settings_add_all_ranks" command. <br/>
+07-08-2025
+
 ## Update 1.05
 Fixed some major bugs around "reset_attendance_list" <br/>
 "/increment_attendance" now also creates a user in the sheet if the user didn't exist before. This only works with discord users <br/>
-27-07-2024
+27-07-2025
 
 ## Update 1.04
 "/reset_attendance_list" will now display what happened when it's done with removing messages because of "/settings_auto_clear_attendances" settings. <br/>
