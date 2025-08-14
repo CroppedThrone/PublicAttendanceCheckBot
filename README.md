@@ -105,6 +105,8 @@ With this command you can disable or enable your troopers from getting attendanc
 ### /rename_user (newname: str, member: discord.Member, nickname: str)
 Renames the username of a user. If you use the member variable, it will rename the user in the attendance sheet. But also rename the user in discord. If you use nickname it will only change the username in the attendance sheet. You can only use one of these options in 1 command, not both.
 
+## Name_Changer or Attendance_Creator or Attendance_Manager or ADMIN
+
 ### /help
 Sends the github link for the publicAttendanceManager page, so you can always find everything back :D.
 
@@ -114,6 +116,10 @@ Sends the github link for the publicAttendanceManager page, so you can always fi
 This commands checks if a user can get attendance. If "/set_attendance_timer" is activated the user can use this command to get the attendance. But this does depends what has been selected with the command: "/settings_attendance_protocols". If the settings: "Attendance with commands" or "Attendance with commands and messages" have been selected you can use the command. If the settings: "Attendance with messages" or "Attendance with commands and messages" have been selected you cannot use the command "/attendance" but will have to type in "i attended" in the correct discord channel. To setup the discord channel use "/settings_attendance_channel".
 
 # UpdateLogs
+
+## Update 1.08
+Trying to fix the duplicate return message bug. <br/>
+Added more "i attended" in text values.
 
 ## Update 1.07
 Added the "/help" command. <br/>
@@ -151,7 +157,7 @@ The word "derp" is now removed o7. <br/>
 02-07-2025 <br/>
 
 # To Do
-Being able to put in all the rank orders in 1 go. 
+Fix double message bug
 
 # Launch
 Started development on 23-04-2025 <br/>
