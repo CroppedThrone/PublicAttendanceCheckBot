@@ -39,10 +39,12 @@ Check out the commands list for even more settings that can be useful to know!<b
 # Commands list
 ## ADMIN
 
-### /settings_attendance_protocols (newprotocols: No attendance, Attendance with commands, Attendance with messages, Attendance with commands and messages)
+### Attendance collecting with commands or messages
+#### /settings_attendance_protocols (newprotocols: No attendance, Attendance with commands, Attendance with messages, Attendance with commands and messages)
 With this command you can change how the user in your discord server interacts with attendance. They can use commands, messages or commands and messages. The default mode is: "Attendance with commands and messages". Don't forget to also setup your channel where users can use attendance!
 
-### /settings_attendance_channel (channel: discord.TextChannel)
+### Setting up where people can type their attendance
+#### /settings_attendance_channel (channel: discord.TextChannel)
 Use this command to select which text channel the discord bot should check for people typing in "i attended". This is also the channel that get's autocleaned if you have "/settings_auto_clear_attendances" set up.
 
 ### /settings_add_rank (newrank: str, position: int)
